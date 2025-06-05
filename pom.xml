@@ -218,6 +218,12 @@
                 <version>${zzylml.version}</version>
             </dependency>
 
+            <dependency>
+                <groupId>com.zzylml</groupId>
+                <artifactId>zzylml-nursing-platform</artifactId>
+                <version>${zzylml.version}</version>
+            </dependency>
+
         </dependencies>
     </dependencyManagement>
 
@@ -228,6 +234,7 @@
         <module>zzylml-quartz</module>
         <module>zzylml-generator</module>
         <module>zzylml-common</module>
+        <module>zzylml-nursing-platform</module>
     </modules>
     <packaging>pom</packaging>
 
