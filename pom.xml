@@ -35,6 +35,7 @@
         <logback.version>1.2.13</logback.version>
         <spring-security.version>5.7.12</spring-security.version>
         <spring-framework.version>5.3.39</spring-framework.version>
+        <lombok.version>1.18.28</lombok.version>
     </properties>
 
     <!-- 依赖声明 -->
@@ -222,6 +223,13 @@
                 <groupId>com.zzylml</groupId>
                 <artifactId>zzylml-nursing-platform</artifactId>
                 <version>${zzylml.version}</version>
+            </dependency>
+
+            <!-- lombok依赖 -->
+            <dependency>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>${lombok.version}</version>
             </dependency>
 
         </dependencies>
