@@ -26,6 +26,9 @@ public class TencentCOSOperator {
         String secretId = System.getenv("SECRET_ID");
         String secretKey = System.getenv("SECRET_KEY");
         COSCredentials cred = new BasicCOSCredentials(secretId, secretKey);
+        // ---- 添加下面这两行来进行调试 ----
+        System.out.println("--- 正在尝试使用的SECRET_ID: [" + secretId + "]");
+        System.out.println("--- 正在尝试使用的SECRET_KEY: [" + (secretKey != null ? "已获取" : "未获取") + "]");
 
         // 2. 设置 bucket 的地域（Region）
         Region region = new Region(cosProperties.getRegion());
