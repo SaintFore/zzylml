@@ -37,6 +37,7 @@
         <spring-framework.version>5.3.39</spring-framework.version>
         <lombok.version>1.18.28</lombok.version>
         <mybats-plus.version>3.5.2</mybats-plus.version>
+        <aliyun.sdk.oss>3.17.4</aliyun.sdk.oss>
     </properties>
 
     <!-- 依赖声明 -->
@@ -232,6 +233,12 @@
                 <version>${zzylml.version}</version>
             </dependency>
 
+            <dependency>
+                <groupId>com.zzylml</groupId>
+                <artifactId>zzylml-oss</artifactId>
+                <version>${zzylml.version}</version>
+            </dependency>
+
             <!-- lombok依赖 -->
             <dependency>
                 <groupId>org.projectlombok</groupId>
@@ -252,6 +259,20 @@
                 <version>${mybats-plus.version}</version>
             </dependency>
 
+            <!-- 阿里云OSS -->
+            <dependency>
+                <groupId>com.aliyun.oss</groupId>
+                <artifactId>aliyun-sdk-oss</artifactId>
+                <version>${aliyun.sdk.oss}</version>
+            </dependency>
+
+            <!-- https://mvnrepository.com/artifact/com.qcloud/cos_api -->
+            <dependency>
+                <groupId>com.qcloud</groupId>
+                <artifactId>cos_api</artifactId>
+                <version>5.6.234</version>
+            </dependency>
+
         </dependencies>
     </dependencyManagement>
 
@@ -263,6 +284,7 @@
         <module>zzylml-generator</module>
         <module>zzylml-common</module>
         <module>zzylml-nursing-platform</module>
+        <module>zzylml-oss</module>
     </modules>
     <packaging>pom</packaging>
 

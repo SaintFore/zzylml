@@ -11,12 +11,6 @@ import com.zzylml.nursing.domain.NursingProject;
  * @author ruoyi
  * @date 2025-06-04
  */
-/**
- * 护理项目Service接口
- *
- * @author ruoyi
- * @date 2024-09-26
- */
 public interface INursingProjectService extends IService<NursingProject>
 {
     /**

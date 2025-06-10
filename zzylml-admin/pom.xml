@@ -67,6 +67,11 @@
             <artifactId>zzylml-nursing-platform</artifactId>
         </dependency>
 
+        <dependency>
+            <groupId>com.zzylml</groupId>
+            <artifactId>zzylml-oss</artifactId>
+        </dependency>
+
     </dependencies>
 
     <build>
